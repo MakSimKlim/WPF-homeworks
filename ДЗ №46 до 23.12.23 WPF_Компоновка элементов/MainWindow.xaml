@@ -1,0 +1,24 @@
+﻿<Window x:Class="ДЗ__46_до_23._12._23_WPF_Компоновка_элементов.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ДЗ__46_до_23._12._23_WPF_Компоновка_элементов"
+        mc:Ignorable="d"
+        Title="игра на языке XAML" Height="300" Width="450" WindowStyle="ThreeDBorderWindow">
+    <Grid x:Name="mainGrid" Background="#FFEDEEA0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Результат догадки" Grid.ColumnSpan="3" x:Name="textLabel" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        <Button Grid.Row="1" Grid.Column="0" FontSize="24" FontWeight="Bold" Background="#FF1CD2CC">Угадал</Button>
+        <Button Grid.Row="1" Grid.Column="1" FontSize="24" FontWeight="Bold" Background="#FF15A1D1">Не угадал</Button>
+        <Button Grid.Row="1" Grid.Column="2" FontSize="24" FontWeight="Bold" Background="#FF136EC0">Заново</Button>
+    </Grid>
+</Window>
