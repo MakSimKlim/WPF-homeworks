@@ -1,0 +1,10 @@
+На нужной "кнопке" нажать правую кнопку мыши
+выбрать Шаблон -> Редактировать шаблон -> Копию шаблона
+
+там в шаблоне закоментировать Is MouseOver:
+<!-- Trigger Property="IsMouseOver" Value="true" >
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger-->
+
+и всё!
