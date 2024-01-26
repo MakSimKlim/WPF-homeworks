@@ -1,0 +1,89 @@
+﻿<Window x:Class="ДЗ__52_до_06._01._24_WPF_Панель_инструментов_граф_ред_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ДЗ__52_до_06._01._24_WPF_Панель_инструментов_граф_ред_"
+        mc:Ignorable="d"
+        Title="Graphic Editor" Height="480" Width="640">
+
+    <DockPanel LastChildFill="True">
+
+        <!-- Верхняя панель инструментов -->
+        <ToolBar DockPanel.Dock="Top">
+            <Button Content="Отмена"/>
+            <Separator/>
+            <Button Content="Возврат"/>
+            <Separator/>
+            <Button Content="Копировать"/>
+            <Separator/>
+            <Button Content="Вырезать"/>
+            <Separator/>
+            <Button Content="Вставить"/>
+            <Separator/>
+            <Button Content="Обрезать по рамке"/>
+            <Separator/>
+        </ToolBar>
+
+        <!-- Левая панель инструментов -->
+        <ToolBarTray DockPanel.Dock="Left" VerticalAlignment="Stretch" Orientation="Vertical">
+            <ToolBar>
+                <Button>
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="выделение.png" Width="16" Height="16" RenderTransformOrigin="0.5,0.594"/>
+                            <TextBlock Text=" Выделение" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <Button >
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Кисть.png" Width="16" Height="16"/>
+                            <TextBlock Text=" Кисть" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <Button>
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Карандаш.png" Width="16" Height="16"/>
+                            <TextBlock Text=" Карандаш" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <Button>
+                    <Button.Content>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Фигуры.png" Width="16" Height="16"/>
+                            <TextBlock Text=" Рисовать фигуры" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+
+                <!-- Добавить другие инструменты по необходимости -->
+            </ToolBar>
+        </ToolBarTray>
+
+        <!-- Панель состояния -->
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock Text="X:136, Y:152"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Text="480х640"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Text="Приближение: 100%"/>
+            </StatusBarItem>
+        </StatusBar>
+
+        <!-- Область рисования -->
+        <Canvas Background="White" Margin="5">
+            <!-- Содержимое для области рисования -->
+        </Canvas>
+
+    </DockPanel>
+</Window>
