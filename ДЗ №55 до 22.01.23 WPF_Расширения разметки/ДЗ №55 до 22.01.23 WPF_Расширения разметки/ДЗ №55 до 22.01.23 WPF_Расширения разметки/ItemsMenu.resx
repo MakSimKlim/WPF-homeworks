@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Contacts" xml:space="preserve">
+    <value>Контакты</value>
+  </data>
+  <data name="ContactsText" xml:space="preserve">
+    <value>Контакты. Адрес: 125009 Москва, Брюсов пер. 7, подъезд 1, оф. 1 (метро Охотный ряд). Тел. +7 (495) 668-31-61/ -62/ -63,   +7 495 692-38-95 +7 495 692-20-59 +7 495 692-11-30</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="Indonesian" xml:space="preserve">
+    <value>Индонезийский</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="MainText" xml:space="preserve">
+    <value>Как путешествовать по России на велосипеде: идеи и советы. Новичкам стоит попробовать свои силы в однодневных путешествиях — несложных и недлинных. Маршруты для первых велопоходов выбирайте тщательно, учитывайте не только дистанцию, но и профиль дороги: не должно быть ни затяжных подъёмов, ни высоких холмов. Чем ровнее она будет — тем лучше. Не стоит приближаться к загруженным большим трассам с сильным движением, даже если по ним разрешено ездить на велосипеде. Находите объездные пути по просёлочным дорогам и лесным тропинкам. Подходящих дорог для новичков много вокруг столицы. Вся Московская область пронизана железнодорожными путями, поэтому не обязательно делать кольцевые маршруты. Можно доехать на электричке до одной станции, а обратно вернуться с другой. Очень много удобных  вариантов маршрутов вокруг большинства российских городов. Вы можете составить их сами или спросить совета опытных туристов, воспользовавшись уже составленными треками. Уделите внимание велосипеду. В идеале — за пару недель до путешествия внимательно его осмотрите, протестируйте или, если плохо разбираетесь в велотонкостях, заранее пройдите полный «техосмотр» в хорошей мастерской, чтобы было время  устранить все поломки.Хорошие условия для несложных многодневных походов есть в  Московской и Ленинградской областях, в Карелии, в степных районах Краснодарского края,на Таманском полуострове и на берегах Байкала.</value>
+  </data>
+  <data name="MainTitle" xml:space="preserve">
+    <value>Расширения разметки</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="NewsItem1" xml:space="preserve">
+    <value>17 ноября, 2023 "Чемпионат России по велогонкам</value>
+  </data>
+  <data name="NewsItem2" xml:space="preserve">
+    <value>24 декабря, 2023 "История велотуризма в России. Открытая лекция</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Услуги</value>
+  </data>
+  <data name="ServicesText" xml:space="preserve">
+    <value>Наша помощь в организации Вашего путешествия не ограничивается бронированием 
+ гостиниц и экскурсий. Вы можете положиться на нас в решении любых вопросов, связанных с подготовкой к нему. Мы поможем Вам:составить оптимальный маршрут Вашего путешествия с посещением интересных для Вас достопримечательностей и  забронировать отели по пути следования;забронировать авиабилет на удобный для Вас рейс российской или международной авиакомпании или железнодорожный билет,
+  заказать трансфер по городу или между городами, включая поездки в аэропорты  (готовые предложения по трансферам);найти переводчика или русскоязычного сопровождающего по городу;взять в аренду автомобиль по специальной цене;
+ оформить медицинскую страховку;оформить визу в Германию;найти ресторан с самым  привлекательным меню;организовать посещение интересующего Вас культурного или спортивного мероприятия и приобрести входные билеты;провести бизнес-встречу
+  и много другое, в соответствии с Вашими пожеланиями! С любыми дополнительными вопросами обращайтесь к нашим менеджерам.</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Испанский</value>
+  </data>
+</root>

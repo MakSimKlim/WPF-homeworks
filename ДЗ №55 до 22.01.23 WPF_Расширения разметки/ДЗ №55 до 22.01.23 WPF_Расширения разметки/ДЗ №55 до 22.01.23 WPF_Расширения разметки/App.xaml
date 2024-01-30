@@ -1,0 +1,9 @@
+﻿<Application x:Class="ДЗ__55_до_22._01._23_WPF_Расширения_разметки.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ДЗ__55_до_22._01._23_WPF_Расширения_разметки"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
